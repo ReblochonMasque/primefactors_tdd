@@ -71,6 +71,13 @@ class TestPrimeFactors(unittest.TestCase):
         for elt in result:
             self.assertIn(elt, [3, 3])
 
+    def test_factors_of_2_2_3_3_3_7_11_11_15(self):
+        """test if factors_of(8) returns [2, 2, 3, 3, 3, 3, 5, 7, 11, 11]
+        """
+        result = factors_of(2 * 2 * 3 * 3 * 3 * 7 * 11 * 11 * 15)
+        self.assertEqual(len(result), 10)
+        for elt in result:
+            self.assertIn(elt, [2, 2, 3, 3, 3, 3, 5, 7, 11, 11])
 
 if __name__ == '__main__':
     unittest.main()
