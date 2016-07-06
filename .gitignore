@@ -1,5 +1,8 @@
-# IDE workspace config
-/.idea/
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
 
 # __pycache__/ containing .pyc files & .pyc files
 __pycache__/
