@@ -1,5 +1,5 @@
 # IDE workspace config
-.idea/
+.idea/*.*
 
 # __pycache__/ containing .pyc files & .pyc files
 __pycache__/
